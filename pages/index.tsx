@@ -1,10 +1,13 @@
-import Header from '../components/Header/Index';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import styles from '../styles/Home.module.css';
 
 const Home = () => {
   return (
     <>
       <Header />
-      <h1>Welcome Rafi</h1>
+      <h1 className={styles['title-homepage']}>Welcome Rafi</h1>
+      <Footer />
     </>
   );
 }
