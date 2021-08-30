@@ -1,3 +1,9 @@
+import Layout from '../../components/Layout';
+
 export default function Detail() {
-    return (<div><p>USERS PAGE</p></div>);
+    return (
+        <Layout pageTitle="Users Page">
+            <p>USERS PAGE</p>
+        </Layout>
+    );
 }

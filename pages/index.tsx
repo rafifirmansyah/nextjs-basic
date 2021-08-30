@@ -1,14 +1,12 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+
 import styles from '../styles/Home.module.css';
+import Layout from '../components/Layout';
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <Layout pageTitle="Home Page">
       <h1 className={styles['title-homepage']}>Welcome Rafi</h1>
-      <Footer />
-    </>
+    </Layout>
   );
 }
 
