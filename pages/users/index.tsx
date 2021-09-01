@@ -5,30 +5,30 @@ interface UsersProps {
 }
 
 export default function Users(props: UsersProps) {
-    const { dataUsers } = props;
-    console.log(dataUsers);
+  const { dataUsers } = props;
+  console.log(dataUsers);
 
-    return (
-        <Layout pageTitle="Users Page">
-            {
-                dataUsers.map((user) => {
-                    <>
-                        <p>{user.name}</p>
-                        <p>{user.email}</p>
-                    </>
-                })
-            }
-        </Layout>
-    );
+  return (
+    <Layout pageTitle="Users Page">
+      {
+        dataUsers.map((user) => (
+          <div key={user.id}>
+            <p>{user.name}</p>
+            <p>{user.email}</p>
+          </div>
+        ))
+      }
+    </Layout>
+  );
 }
 
 export async function getStaticProps() {
-    const res = await fetch('https://jsonplaceholder.typicode.com/users');
-    const dataUsers = await res.json();
+  const res = await fetch('https://jsonplaceholder.typicode.com/users');
+  const dataUsers = await res.json();
 
-    return {
-        props: {
-           dataUsers, 
-        },
-    }
+  return {
+    props: {
+      dataUsers,
+    },
+  };
 }
