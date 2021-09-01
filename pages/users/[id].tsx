@@ -7,7 +7,7 @@ export default function Detail() {
     return (
         <div>
             <p>
-                User Detail Page 
+                User Detail Page
                 {' '}
                 {id}
                 {' '}

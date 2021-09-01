@@ -3,10 +3,10 @@ import styles from '../styles/Home.module.css';
 import Layout from '../components/Layout';
 
 const Home = () => {
-  return (
-    <Layout pageTitle="Home Page">
-      <Image src="/images/profile.png" width={200} height={200} />
-      <h1 className={styles['title-homepage']}>Welcome Rafi</h1>
+    return (
+        <Layout pageTitle="Home Page">
+            <Image src="/images/profile.png" width={200} height={200} />
+            <h1 className={styles['title-homepage']}>Welcome Rafi</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate tempora dolor facere, assumenda doloremque nihil fugit placeat asperiores, adipisci hic aspernatur. Aspernatur, aperiam quas reprehenderit quae animi aut! Blanditiis, dolores?
       Excepturi, perspiciatis quia totam sint praesentium minus commodi consequuntur exercitationem asperiores illum delectus ea perferendis amet assumenda inventore autem possimus reiciendis esse quidem quos omnis facilis laboriosam? Fugit, voluptatem omnis.
       Neque delectus fuga in enim velit nesciunt veniam commodi eligendi, nobis obcaecati sapiente ipsam consectetur quos sit praesentium dolore modi cupiditate omnis minima quasi! Eveniet exercitationem ex error facere optio?
@@ -16,7 +16,8 @@ const Home = () => {
       Recusandae dicta sapiente, ex laborum debitis ducimus aliquid explicabo placeat ea. Ab quaerat vel molestiae iste. Omnis blanditiis impedit alias quam consequuntur ipsum, debitis quae voluptas quaerat temporibus. Deleniti, placeat?
       Temporibus fugiat dolorum ullam quas necessitatibus consequuntur ex provident ea ad veniam obcaecati quisquam laboriosam quos, inventore explicabo nesciunt ab perferendis eaque. Tenetur fugiat laboriosam iste officia recusandae sed dignissimos?
       Exercitationem, temporibus. Iste saepe molestiae totam eveniet officiis! Dignissimos quo at eius minus aperiam illo veniam itaque neque aut odio deleniti reprehenderit ab quis unde quidem, accusantium delectus non doloremque.
-      At commodi molestias cumque vitae eveniet. Qui doloribus quaerat numquam debitis officiis aut mollitia. Asperiores praesentium rerum quo perspiciatis eligendi, quasi, id earum quas optio, sunt blanditiis nesciunt facilis consequatur.</p>
+      At commodi molestias cumque vitae eveniet. Qui doloribus quaerat numquam debitis officiis aut mollitia. Asperiores praesentium rerum quo perspiciatis eligendi, quasi, id earum quas optio, sunt blanditiis nesciunt facilis consequatur.
+      </p>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate tempora dolor facere, assumenda doloremque nihil fugit placeat asperiores, adipisci hic aspernatur. Aspernatur, aperiam quas reprehenderit quae animi aut! Blanditiis, dolores?
       Excepturi, perspiciatis quia totam sint praesentium minus commodi consequuntur exercitationem asperiores illum delectus ea perferendis amet assumenda inventore autem possimus reiciendis esse quidem quos omnis facilis laboriosam? Fugit, voluptatem omnis.
       Neque delectus fuga in enim velit nesciunt veniam commodi eligendi, nobis obcaecati sapiente ipsam consectetur quos sit praesentium dolore modi cupiditate omnis minima quasi! Eveniet exercitationem ex error facere optio?
@@ -108,4 +109,4 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate tempora dolo
   );
 };
 
-export default Home
+export default Home;

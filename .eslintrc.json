@@ -32,8 +32,15 @@
               "ts": "never",
               "tsx": "never"
             }
-         ],
-         "arrow-body-style": 0
+        ],
+        "arrow-body-style": 0,
+        "max-len": ["error", { "code": 1000, "tabWidth": 4}],
+        "react/jsx-one-expression-per-line": "off",
+        "indent": "off",
+        "react/jsx-indent": "off",
+        "react/jsx-closing-tag-location": "off",
+        "no-console": "off",
+        "jsx-a11y/anchor-is-valid": "off"
     },
     "settings": {
         "import/resolver": {
